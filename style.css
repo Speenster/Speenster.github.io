@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+   width: 100%;
+   height: 100vh; 
+   background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(myPizza.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.bannerFG{
+    width: 100%;
+    height: 100vh; 
+    background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Fouh.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .bannerCG{
+    width: 100%;
+    height: 100vh; 
+    background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Chesther.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .bannerP{
+    width: 100%;
+    height: 100vh; 
+    background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Pictures.png);
+    background-size: cover;
+    background-position: center; 
+ }
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+.navbarG{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbarG ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbarG ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #35d1ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbarG ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #35d1ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover:after{
+    width: 100%;
+}
+.navbarG ul li :hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
